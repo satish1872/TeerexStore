@@ -1,0 +1,60 @@
+.productCard {
+    background-color: #f2f2f2;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.productName {
+    position: absolute;
+    z-index: auto;
+}
+
+.productImage {
+    width: 100%;
+    height: 200px;
+}
+
+.productDetails {
+    display: flex;
+    justify-content: space-between;
+}
+
+.productDetails h3 {
+    margin: 0;
+}
+
+.cartButtons {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.countButton {
+    width: 35px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.cartItemCount {
+    padding: 6px 7px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.addToCartButton {
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.outOfStockMessage {
+    color: red;
+    margin-top: 15px;
+}
