@@ -29,11 +29,9 @@ function Product() {
     fetchData();
   }, []);
 
+
   useEffect(() => {
-     async function filter(){
-      await applyFilters();
-     }
-     filter()
+    applyFilters();
   }, [filters]);
 
   /**
@@ -85,6 +83,7 @@ function Product() {
 
     setData(filteredData);
   };
+
 
   /**
    * Handle the search action.
