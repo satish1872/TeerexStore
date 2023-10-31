@@ -1,4 +1,4 @@
-# TeeRexCart - Online T-Shirt Store
+# TeeRexCart - Online T-Shirt Store deployed version: https://luxury-narwhal-b70579.netlify.app/
 
 ## Table of Contents
 
